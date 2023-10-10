@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #185C73;
+            margin: 0px;
+         
+        }
+        header {
+            background-color: #185C73;
+            color: #BFB30F;
+            padding: 10px;
+            margin: 0px;
+        }
+               
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 0px;
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 50%; 
+        
+            }
+            img {
+                height: 100px;
+                width: 100px;             
+                
+            }
+       
+        h1 { 
+            font-style: bold;
+        }
+       
+        nav { 
+            background-color: white;
+            font-style: italic;
+            color: red;
+            padding: 3px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.137);
+            
+        }
+        div > a {
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+                 
+        }
+
+        div > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            color: black;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 10px 0px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.192);
+
+        }
+        article > aside {
+            background-color: rgb(163, 163, 163);
+            padding: 5px;
+        }
+        footer {
+            background-color: white;
+            color: red;
+            padding: 5px;
+            margin: 0px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;
+        } 
+        
+    
+    </style>
+</head>
+<body>
+    <header>
+         <h1> Meu Site </h1>
+             <div id="bola"> <img src="favicon.ico" alt=""></div>
+    </header>
+    <nav>
+        <div><a href="#">Menu</a></div>
+    </nav>
+    <main>
+       <section id="Notícias de hoje">
+        <section id="Política">
+            <article>
+                <h2>Dia importante em Brasília</h2>
+                <h3>Votação na câmara dos deputados</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda deserunt hic alias non omnis, veniam quidem ipsum nostrum? Veniam explicabo saepe cumque perferendis quasi officiis nostrum dolorum quas temporibus corporis.?</p>
+                <aside>
+                    <p>Colunista José Maria Trindade</p>
+                </aside>
+            </article>
+        </section>
+                 <section id="Notícias de BH">
+                  <article>
+                    <h2>Belo Horizonte vive dia fundamental na aprovação de projetos de infra-estrutura </h2>
+                    <h3>Câmara dos vereadores define hoje projeto para avançar na reforma de infra-estrutura de BH</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repudiandae quisquam itaque minus illo unde at quidem sapiente illum mollitia sit pariatur quis blanditiis molestias temporibus, nostrum labore fuga quam.</p>
+                    <aside><p>Colunista Raquel Rabello</p></aside>
+                  </article>  
+                 </section>
+       </section>
+       <section id="Esportes">
+        <article>
+            <h2>Cruzeiro e américa empatam no clássico mineiro no mineirão</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem asperiores earum illo eveniet corrupti molestias corporis aut voluptates rem culpa nihil, neque dignissimos. Temporibus, ducimus vero quod vel doloremque eligendi.</p>
+            <aside><p>Tiago Valu</p></aside>
+        </article>
+       </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por JkDev</p>
+    </footer>
+</body>
+</html>
