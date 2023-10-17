@@ -1,0 +1,276 @@
+@charset "UTF-8" ;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {    
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'bebas neue', 'cursive';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    font-family: var(--fonte-padrao);
+    background-color: #0574BC;
+}
+
+header {
+    width: 98vw;
+    height: 40px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+    
+}
+
+header > h1 {
+    font-size: 1.3em;
+}
+
+header > p {
+    font-size: 0.8em;
+    padding-left: 25px;
+}
+
+div {
+    max-width: 100vw;
+    min-height: 667px;
+    background-image: url('../imagens/Lagoa-da-Pampulha.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+div > h1, p{
+   display: inline-block;
+  
+}
+
+div > h1 {
+    padding-left: 200px;
+    padding-right: 5px;
+    padding-top: 10px;
+   
+}
+
+div > p, a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div, a {
+    color: white;
+    text-decoration: none;
+    
+    font-weight: bold;
+    transition-duration: 0.3s; 
+    
+}
+div a:hover {
+    background-color: #04548A;
+    color: #FED500;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top:10px;
+    font-size: 0.9em;
+    
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: 0.3s; 
+}
+
+nav a:hover {
+    background-color: #04548A;
+    color: #FED500;
+}
+
+main {
+    background-color: white;
+    min-width: 370px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: var(--fonte-padrao);
+    font-size: 2.0vw;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px
+    
+}
+
+section > p {
+    padding-bottom: 2em;
+    
+ }
+
+section > h1 {
+    color: #06AC4C;
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    padding-bottom: 2em;
+    
+}
+
+section.imagem {
+    background-color: white;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(85, 85, 85, 0.151);
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+section#img01 {
+    background-image: url('../imagens/lagoadapampulhad.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url('../imagens/institutoinhotim.jpg');
+    background-position: bottom center;
+    background-size: cover;
+}
+
+section#img03 {
+    background-image: url('../imagens/igrejadapampulhasaofranciscodeassis.jpg');
+    background-position: bottom right;
+    background-size: cover;
+}
+
+section#img04 {
+    background-image: url('../imagens/casadobaile.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+section#img05 {
+    background-image: url('../imagens/centroculturalbancodobrasilccbb.jpg');
+    background-position: top center;
+    background-size: cover;
+  }
+
+section#img06 {
+    background-image: url('../imagens/centrodeartepopularcemig.jpg');
+    background-position: center center;
+    background-size: cover;
+  }  
+
+section#img07 {
+    background-image: url('../imagens/parquemunicipalamericorennegiannetti.jpg');
+    background-position: bottom center;
+    background-size: cover;
+  }  
+
+section#img08 {
+    background-image: url('../imagens/pracadaliberdade.jpg');
+    background-position: bottom center;
+    background-size: cover;
+  } 
+  
+section#img09 {
+    background-image: url('../imagens/mirantedomangabeiras.jpg');
+    background-position: center center;
+    background-size: cover;
+  } 
+  
+section#img10 {
+    background-image: url('../imagens/pracadopapagovernadorisraelpinheiro.jpg');
+    background-position: center center;
+    background-size: cover;
+  } 
+  
+aside{
+    color: #ED1F22;
+    font-family: var(--fonte-padrao);
+    text-align: center; 
+  }
+
+aside ul {
+        text-decoration: none;
+       
+  }
+    
+ul li {
+        color: white; 
+        padding-top: 20px;
+        padding-left: 25px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        transition-duration: 0.3s;
+        list-style-type: '\2714\00A0\00A0';
+        list-style-position: inside;
+        
+  }
+
+ul li:hover {
+    
+        color: #FED500;
+  }
+    
+aside h3  {
+        color: #ED1F22;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 2em;
+  }
+    
+     
+footer {
+        
+        color: #FED500;
+        text-align: center;
+        font-size: 1em;
+        padding-right: 5px;
+        padding-top: 15px;
+    
+  }
+footer a{
+    color: #FED500;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    transition-duration: 0.3s; 
+       
+    
+  }
+footer a:hover {
+    background-color: #04548A;
+    color: #FED500;
+    
+  }
+
+
+
